@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-214417857-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-214417857-1');
+	</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width:992px)" href="css/desktop.css">
+    <link rel="stylesheet" media="(max-width:992px)" href="css/style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+  <header class="main-section">
+    <section class="toolbar">
+      <nav class="desktop">
+        <div class="all-item"><a href="#">Ala.</a></div>
+        <div class="desk-item">
+          <div><a href="#portfolio">Projects</a></div>
+          <div><a href="#about">About</a></div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
+        <div class="mobile-item">
+          <div class="item close"><a href="#" class="closeMenu"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+          <div class="mobile-nav"><a href="#portfolio" class="closeMenu">Portfolio</a></div>
+          <div class="mobile-nav"><a href="#about" class="closeMenu">About</a></div>
+          <div class="mobile-nav"><a href="#contact" class="closeMenu">Contact</a></div>
+        </div>
+        <div class="item menu"><a href="#" class="openMenu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+      </nav>
+    </section>
+  </header>
+  <main class="main-parts">
+    <section class="headline-section">
+      <h1>I'm Ala Bensalem <br> Glad to see you!</h1>
+      <p>I’m a CS student passionate about coding and building projects. I’m currently looking for an Ausbildung in Germany to grow my skills and gain hands-on experience.
+        Feel free to check out my work and reach out!</p>
+      <P class="connect">LET'S CONNECT</P>
+      <ul class="social-icon">
+        <li><a href="https://www.linkedin.com/in/ala-bensalem-413083323/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/ala_sw01/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/AlaSww?tab=overview&from=2025-04-01&to=2025-04-17"><i class="fa fa-github" aria-hidden="true"></i></a></li>  
+      </ul>
+    </section>
+    <section class="works" id="portfolio">
+    </section>
+    <section class="about-myself" id="about">
+      <div class="desk-about">
+        <h1>About <br> Myself</h1>
+        <p>I’m a CS student passionate about coding and building projects. I’m currently looking for an Ausbildung in Germany to grow my skills and gain hands-on experience.
+          Feel free to check out my work and reach out!</p>
+        <P class="connect">LET'S CONNECT</P>
+        <ul class="contact-icon">
+          <li><a href="https://github.com/AlaSww?tab=overview&from=2025-04-01&to=2025-04-17"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ala-bensalem-413083323/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/ala_sw01/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+        <button class="resume" onclick="downloadFile()">Get My Resume</button>
+        <a id="downloadLink" href="./my cv.pdf" download="Alabensalem" style="display:none;"></a>
+        <script>
+          function downloadFile() {
+            document.getElementById('downloadLink').click();
+          }
+        </script>
+      </div>
+      <div class="expertise">
+        <ul class="language">
+          <li>
+            <p>Skills</p>
+          </li>
+          <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+        </ul>
+        <div class="desk-programming">
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/java.png" alt="java"></li>
+            <li>
+              <p>Java</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/c.png" height= "50" alt="c"></li>
+            <li>
+              <p>C</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/flutter.png" height= "50" alt="Flutter"></li>
+            <li>
+              <p>Flutter</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/firebase.png" height= "50" alt="firebase"></li>
+            <li>
+              <p>Firebase</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/sql.png" height= "50" alt="SQL"></li>
+            <li>
+              <p>SQL</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/linux.png" height= "50" alt="linux"></li>
+            <li>
+              <p>Linux</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/html.png" height= "50" alt="HTML"></li>
+            <li>
+              <p>HTML</p>
+            </li>
+          </ul>
+          <ul class="outer-item">
+            <li class="programming"><img src="./images/css.png" height= "50" alt="CSS"></li>
+            <li>
+              <p>CSS</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="inner-div">
+        <h2>Contact me</h2>
+        <p id="inner-div">If you have an application you are interested in developing, a feature that you need
+          built or a project that needs coding. I’d love to help with it </p>
+      </div>
+      <div class="expertise">
+        <ul >
+          <li class="programming"><img src="./images/mail.png" alt="java"></li>
+          <li>
+            <p>alaeddinebensalem01@gmail.com</p>
+          </li>
+        </ul>
+        <ul >
+          <li class="programming"><img src="./images/whatsapp.png" alt="java"></li>
+          <li>
+            <p>+216 94 898 549</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <section class="worksPopup" id="portfolioPopup">
+  </section>
+<script src="js/main.js"></script>
+</body>
+
+</html>
